@@ -1,0 +1,293 @@
+Sno,Batch,Domain+Path,Category,Classification,Justification
+1,1,acs-demo.m2pfintech.dev /management,Actuator JSON,OPEN,"Spring Actuator endpoint exposing health, metrics, Prometheus links"
+2,1,acs-demo.m2pfintech.dev /management/,Actuator JSON,OPEN,"Spring Actuator endpoint exposing health, metrics, Prometheus links"
+3,1,acs-fimecert.m2pfintech.dev /management,Actuator JSON,OPEN,Spring Actuator endpoint showing health check links
+4,1,acscert.m2pfintech.com /management,Actuator JSON,OPEN,Spring Actuator endpoint exposing health check
+5,1,alizz-connect.m2pfintech.com /admin,Admin Login Form,LOGIN_GATED,Genuine M2P Connect Admin Portal login with username/password
+6,1,auspergpr.livquik.com /assets,Session Timeout,LOGIN_GATED,"""Session Timed out..Please login to continue"" message"
+7,1,aya-prod-historical.madstreetden.com /actuator/mappings,Actuator JSON,OPEN,Actuator endpoint showing success status with mapping endpoints
+8,1,az-prod-sea-sso.vue.ai /admin/,Admin UI Login,LOGIN_GATED,"""Loading the Admin UI"" text indicates protected admin interface"
+9,1,banking.m2pfintech.com /api/v1/api-docs,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+10,1,banking.m2pfintech.com /api/v1/graphql,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+11,1,banking.m2pfintech.com /api/v1/namespaces,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+12,1,banking.m2pfintech.com /api/v1/swagger-ui.html,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+13,1,banking.m2pfintech.com /api/v2/api-docs,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+14,1,banking.m2pfintech.com /api/v2/graphql,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+15,1,banking.m2pfintech.com /ws,WebSocket Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+16,1,commerce-agent-bedrock.idflow.info /v1/api-docs,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+17,1,commerce-agent-bedrock.idflow.info /v1/graphql,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+18,1,contentstudio.m2pfintech.com /dashboard,Microsoft Login Portal,LOGIN_GATED,"""Content Studio"" login form with ""Sign in with Microsoft"" button"
+19,1,contentstudio.m2pfintech.com /dashboard/,Microsoft Login Portal,LOGIN_GATED,"""Content Studio"" login form with ""Sign in with Microsoft"" button"
+20,1,csbapi.m2pfintech.com /api/openapi.json,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+21,1,csbapi.m2pfintech.com /api/openapi.yaml,API Unauthorized,LOGIN_GATED,"JSON error response ""Access denied"" with 401 Unauthorized status"
+22,3,drc-vp-gateway.m2pfintech.com/api/docs,API Documentation JSON,OPEN,Exposed API docs endpoint returning structured error response
+23,3,drc-vp-gateway.m2pfintech.com/api/swagger.json,Swagger JSON,OPEN,Exposed Swagger specification file
+24,3,drc-vp-oob.m2pfintech.com/management,Management Endpoint,OPEN,"Exposed management links (health, prometheus, metrics)"
+25,3,drc-vp-s3-res.m2pfintech.com/soap,SOAP Interface,OPEN,Exposed SOAP endpoint with error message
+26,3,elms-qa.finflux.io/api/v1/swagger-ui.html,Swagger UI,OPEN,Exposed Swagger UI interface
+27,3,emp.yappay.in/api/openapi.yaml,OpenAPI YAML,OPEN,Exposed OpenAPI specification with error
+28,3,emp.yappay.in/api/swagger.yaml,Swagger YAML,OPEN,Exposed Swagger specification with error
+29,3,emp.yappay.in/api/v1/api-docs,API Docs,OPEN,Exposed API documentation with error
+30,3,emp.yappay.in/api/v2/api-docs,API Docs,OPEN,Exposed API documentation with error
+31,3,enbdapi.m2pfintech.com/management,Management Endpoint,OPEN,Exposed management endpoints with links
+32,3,enbdapi.m2pfintech.com/management/,Management Endpoint,OPEN,Exposed management endpoints with links
+33,3,enterpriseenrollment.m2p.in/healthcheck,XML Response,OPEN,Exposed health check returning XML with identifier
+34,3,enterpriseenrollment.m2p.me/healthcheck,XML Response,OPEN,Exposed health check returning XML with identifier
+35,3,enterpriseenrollment.syntizen.com/healthcheck,XML Response,OPEN,Exposed health check returning XML with identifier
+36,3,eqapi.yappay.in/api/documentation,API Docs,OPEN,Exposed API documentation with error
+37,3,eqapi.yappay.in/api/swagger.json,Swagger JSON,OPEN,Exposed Swagger specification with error
+38,3,eqapi.yappay.in/api/swagger.yaml,Swagger YAML,OPEN,Exposed Swagger specification with error
+39,3,eqapi.yappay.in/api/v1/api-docs,API Docs,OPEN,Exposed API documentation with error
+40,3,esafrupayhash.m2pfintech.com/management,Management Endpoint,OPEN,Exposed management endpoints with links
+41,3,federal-credit.m2pfintech.com/api/gql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint with error
+42,3,federal-loslms.m2pfintech.com/api/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint with error
+43,3,federal-loslms.m2pfintech.com/api/v1/api-docs,API Docs,OPEN,Exposed API documentation with error
+44,3,federal-loslms.m2pfintech.com/api/v1/swagger-ui.html,Swagger UI,OPEN,Exposed Swagger UI interface
+45,3,federal-scapia-percona.m2pfintech.com/swagger,Swagger UI,OPEN,Exposed Swagger UI with loading state
+46,3,federal-scapia-percona.m2pfintech.com/swagger-ui,Swagger UI,OPEN,Exposed Swagger UI with loading state
+47,3,federal-scapia-percona.m2pfintech.com/swagger-ui.html#,Swagger UI,OPEN,Exposed Swagger UI with loading state
+48,3,federal-scapia-uat.m2pfintech.com/api/documentation,API Docs,OPEN,Exposed API documentation with 2005 auth error
+49,3,federal-scapia-uat.m2pfintech.com/api/openapi.yaml,OpenAPI Spec,OPEN,Exposed OpenAPI YAML with auth error
+50,3,federal-scapia-uat.m2pfintech.com/api/v2/api-docs,API Docs,OPEN,Exposed API docs with 500 error
+51,3,federal-scapia.m2pfintech.com/api/swagger.yaml,Swagger YAML,OPEN,Exposed Swagger YAML with auth error
+52,3,federalapi.m2pfintech.com/api/metrics,Metrics Endpoint,OPEN,Exposed metrics endpoint with error
+53,3,federalapi.yappay.in/api/docs,API Docs,OPEN,Exposed API documentation with error
+54,3,federalapi.yappay.in/api/metrics,Metrics Endpoint,OPEN,Exposed metrics endpoint with error
+55,3,federalapi.yappay.in/api/v1/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint with error
+56,3,finorupayhash.yappay.in/management,Management Endpoint,OPEN,Exposed management endpoints with links
+57,3,fplapi.yappay.in/api,Root API Endpoint,OPEN,Exposed API endpoint
+58,3,fplapi.yappay.in/api/debug,Debug Endpoint,OPEN,Exposed debug endpoint
+59,3,fplapi.yappay.in/api/docs,API Docs,OPEN,Exposed API documentation
+60,3,fplapi.yappay.in/api/documentation,API Docs,OPEN,Exposed API documentation
+61,3,fplapi.yappay.in/api/gql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+62,3,fplapi.yappay.in/api/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+63,3,fplapi.yappay.in/api/metrics,Metrics Endpoint,OPEN,Exposed metrics endpoint
+64,3,fplapi.yappay.in/api/openapi.json,OpenAPI JSON,OPEN,Exposed OpenAPI specification
+65,3,fplapi.yappay.in/api/openapi.yaml,OpenAPI YAML,OPEN,Exposed OpenAPI specification
+66,3,fplapi.yappay.in/api/swagger.json,Swagger JSON,OPEN,Exposed Swagger specification
+67,3,fplapi.yappay.in/api/swagger.yaml,Swagger YAML,OPEN,Exposed Swagger specification
+68,3,fplapi.yappay.in/api/v1/api-docs,API Docs,OPEN,Exposed API documentation
+69,3,fplapi.yappay.in/api/v1/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+70,3,fplapi.yappay.in/api/v1/namespaces,Kubernetes Namespaces,OPEN,Exposed Kubernetes API namespace listing
+71,3,fplapi.yappay.in/api/v1/swagger-ui.html,Swagger UI,OPEN,Exposed Swagger UI interface
+72,3,fplapi.yappay.in/api/v2/api-docs,API Docs,OPEN,Exposed API documentation
+73,3,fplapi.yappay.in/api/v2/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+74,3,fplapi.yappay.in/management,Management Endpoint,OPEN,Exposed management endpoints with links
+75,3,fplapi.yappay.in/management/,Management Endpoint,OPEN,Exposed management endpoints with links
+76,3,gcp-backend-beta.vue.ai/api/v1/graphql,GraphQL Endpoint,OPEN,"Exposed GraphQL with ""Missing Token/api-key"" error"
+77,3,gcp-backend-beta.vue.ai/api/v1/namespaces,API Endpoint,OPEN,Exposed API endpoint with auth error
+78,3,gff-uat-workflow.m2pfintech.dev/admin,Admin Portal,LOGIN_GATED,M2P Connect Admin Portal with login form
+79,3,grafana-gcp-asth1.vue.ai/api-blueprint,API Blueprint,OPEN,Exposed API blueprint with 401 error
+80,3,grafana-gcp-asth1.vue.ai/api-explorer,API Explorer,OPEN,Exposed API explorer with 401 error
+81,3,grafana-gcp-asth1.vue.ai/api/debug,Debug Endpoint,OPEN,Exposed debug endpoint with 401 error
+82,3,grafana-gcp-asth1.vue.ai/api/openapi.yaml,OpenAPI Spec,OPEN,Exposed OpenAPI YAML with 401 error
+83,3,grafana-gcp-asth1.vue.ai/api/v1/api-docs,API Docs,OPEN,Exposed API docs with 401 error
+84,3,grafana-gcp-asth1.vue.ai/api/v1/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL with 401 error
+85,3,hdfcapi.yappay.in/api,Root API Endpoint,OPEN,Exposed API endpoint returning error
+86,3,hdfcapi.yappay.in/api/debug,Debug Endpoint,OPEN,Exposed debug endpoint returning error
+87,3,hdfcapi.yappay.in/api/docs,API Docs,OPEN,Exposed API documentation
+88,3,hdfcapi.yappay.in/api/documentation,API Docs,OPEN,Exposed API documentation
+89,3,hdfcapi.yappay.in/api/gql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+90,3,hdfcapi.yappay.in/api/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+91,3,hdfcapi.yappay.in/api/metrics,Metrics Endpoint,OPEN,Exposed metrics endpoint
+92,3,hdfcapi.yappay.in/api/openapi.json,OpenAPI JSON,OPEN,Exposed OpenAPI specification
+93,3,hdfcapi.yappay.in/api/openapi.yaml,OpenAPI YAML,OPEN,Exposed OpenAPI specification
+94,3,hdfcapi.yappay.in/api/swagger.json,Swagger JSON,OPEN,Exposed Swagger specification
+95,3,hdfcapi.yappay.in/api/swagger.yaml,Swagger YAML,OPEN,Exposed Swagger specification
+96,3,hdfcapi.yappay.in/api/v1/api-docs,API Docs,OPEN,Exposed API documentation
+97,3,hdfcapi.yappay.in/api/v1/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+98,3,hdfcapi.yappay.in/api/v1/namespaces,Kubernetes Namespaces,OPEN,Exposed Kubernetes API namespace listing
+99,3,hdfcapi.yappay.in/api/v1/swagger-ui.html,Swagger UI,OPEN,Exposed Swagger UI interface
+100,3,hdfcapi.yappay.in/api/v2/api-docs,API Docs,OPEN,Exposed API documentation
+101,3,hdfcapi.yappay.in/api/v2/graphql,GraphQL Endpoint,OPEN,Exposed GraphQL endpoint
+102,3,hdfcapi.yappay.in/management,Management Endpoint,OPEN,Exposed management endpoints with links
+103,3,hdfcapi.yappay.in/management/,Management Endpoint,OPEN,Exposed management endpoints with links
+104,3,hdfcprepaid-uat-workflow.m2pfintech.dev/admin,Lending Platform,LOGIN_GATED,Finflux lending platform login form
+105,3,health-status.vue.ai/js/bundle.js.map,Source Map File,OPEN,Exposed source map of Health Status application
+106,3,health.vue.ai/redoc/,ReDoc UI,OPEN,Exposed ReDoc API documentation interface (requires login to docs)
+107,4,induscrupayhash.yappay.in,/management,Spring Boot Actuator,OPEN
+108,4,indusind-oauth.m2pfintech.com,/management,Spring Boot Actuator,OPEN
+109,4,jiorupayhash.yappay.in,/management,Spring Boot Actuator,OPEN
+110,4,lqrupayhash.yappay.in,/management,Spring Boot Actuator,OPEN
+111,4,m2p-upi-api-gateway.m2pfintech.com,/management,Spring Boot Actuator,OPEN
+112,4,m2p.yappay.in,/management,Spring Boot Actuator,OPEN
+113,6,pprd-vp-gateway.m2pfintech.com,/api/debug,OPEN,JSON API response with exposed endpoint
+114,6,pprd-vp-gateway.m2pfintech.com,/api/docs,OPEN,JSON API documentation exposed
+115,6,pprd-vp-gateway.m2pfintech.com,/api/documentation,OPEN,JSON API documentation exposed
+116,6,pprd-vp-gateway.m2pfintech.com,/api/gql,OPEN,GraphQL endpoint exposed
+117,6,pprd-vp-gateway.m2pfintech.com,/api/graphql,OPEN,GraphQL endpoint exposed
+118,6,pprd-vp-gateway.m2pfintech.com,/api/metrics,OPEN,JSON metrics exposed
+119,6,pprd-vp-gateway.m2pfintech.com,/api/openapi.json,OPEN,OpenAPI JSON spec exposed
+120,6,pprd-vp-gateway.m2pfintech.com,/api/openapi.yaml,OPEN,OpenAPI YAML spec exposed
+121,6,pprd-vp-gateway.m2pfintech.com,/api,OPEN,JSON API response exposed
+122,6,pprd-vp-gateway.m2pfintech.com,/api/swagger.json,OPEN,Swagger JSON spec exposed
+123,6,pprd-vp-gateway.m2pfintech.com,/api/swagger.yaml,OPEN,Swagger YAML spec exposed
+124,6,pprd-vp-gateway.m2pfintech.com,/api/v1/api-docs,OPEN,Swagger API docs exposed
+125,6,pprd-vp-gateway.m2pfintech.com,/api/v1/graphql,OPEN,GraphQL endpoint exposed
+126,6,pprd-vp-gateway.m2pfintech.com,/api/v1/namespaces,OPEN,JSON API response exposed
+127,6,pprd-vp-gateway.m2pfintech.com,/api/v1/swagger-ui.html,OPEN,Swagger UI interface exposed
+128,6,pprd-vp-gateway.m2pfintech.com,/api/v2/api-docs,OPEN,Swagger API docs exposed
+129,6,pprd-vp-gateway.m2pfintech.com,/api/v2/graphql,OPEN,GraphQL endpoint exposed
+130,6,program-management.m2pfintech.dev,/healthz,OPEN,Kubernetes health check endpoint exposed
+131,6,program-management.m2pfintech.dev,/metrics,OPEN,Prometheus metrics exposed
+132,6,program-management.m2pfintech.dev,/readyz,OPEN,Kubernetes readiness check endpoint exposed
+133,6,qa-ic-apps.m2pfintech.dev,/actuator/httptrace,OPEN,Spring Boot Actuator metrics exposed
+134,6,redmine.yappay.in,/admin,LOGIN_GATED,Redmine ticketing system admin login form
+135,6,rupayhash.m2pfintech.com,/management,OPEN,Swagger/OpenAPI specification exposed
+136,6,rupayhash.yappay.in,/management,OPEN,Swagger/OpenAPI specification exposed
+137,6,secure-uat-m2p-ccms.m2pfintech.dev,/actuator/health,OPEN,Spring Boot Actuator health endpoint exposed
+138,6,secure-uat-m2p-ccms.m2pfintech.dev,/actuator/info,OPEN,Spring Boot Actuator info endpoint exposed
+139,7,sf-preprod-api.vue.ai/admin/login,Admin Form,LOGIN_GATED,Real Django administration login interface
+140,7,sliceppi.m2pfintech.com/management,API Endpoint,OPEN,"Exposed Spring Boot Actuator-like management endpoint returning HATEOAS JSON links to metrics, loggers, prometheus endpoints"
+141,7,sliceppi.m2pfintech.com/management/,API Endpoint,OPEN,Same as above with trailing slash
+142,7,solution.m2pfintech.com/health,Health Endpoint,OPEN,Exposed Spring Boot health endpoint returning status
+143,7,sso-gcp-prod.vue.ai/health,Health Endpoint,OPEN,Exposed health endpoint returning JSON status indicator
+144,7,status.finflux.io/health,Health Endpoint,OPEN,"Exposed health check endpoint returning ""All up!"""
+145,7,test-m2p-connect.m2pfintech.dev/ping,Health Endpoint,OPEN,"Exposed ping endpoint returning ""OK"" response"
+146,8,tmb-credit.m2pfintech.com/api/v1/graphql,GraphQL API,OPEN,GraphQL endpoint returning JSON error response
+147,8,tmb-credit.m2pfintech.com/api/v1/namespaces,API Namespace,OPEN,API endpoint exposing namespace list
+148,8,tmb-credit.m2pfintech.com/api/v1/swagger-ui.html,Swagger UI,OPEN,"Swagger documentation interface (default path, unauthenticated access)"
+149,8,tmb-credit.m2pfintech.com/api/v2/api-docs,Swagger Docs,OPEN,OpenAPI documentation endpoint
+150,8,tmb-credit.m2pfintech.com/api/v2/graphql,GraphQL API,OPEN,GraphQL endpoint
+151,8,tmb-credit.m2pfintech.com/management,Spring Boot Management,OPEN,Spring Boot actuator-style management endpoint with exposed links
+152,8,tmb-credit.m2pfintech.com/management/,Spring Boot Management,OPEN,"Spring Boot management endpoint with links to /health, /info, /loggers"
+153,8,tmbapi.m2pfintech.com/api/gql,GraphQL API,OPEN,GraphQL endpoint exposed
+154,8,tmbapi.m2pfintech.com/api/openapi.yaml,OpenAPI Spec,OPEN,OpenAPI/Swagger specification file exposed
+155,8,tmbrupayhash.yappay.in/management,Spring Boot Management,OPEN,"Management endpoint with links to /health, /metrics, /prometheus"
+156,8,tracker.indusind.goals101.ai/health,Health Endpoint,OPEN,"Health check endpoint exposing system metadata (appType, server status, DB info)"
+157,8,ttapi.m2pfintech.com/api/graphql,GraphQL API,OPEN,GraphQL endpoint
+158,8,ttapi.m2pfintech.com/api/openapi.yaml,OpenAPI Spec,OPEN,OpenAPI specification exposed
+159,8,ttapi.m2pfintech.com/api/v1/api-docs,API Docs,OPEN,API documentation endpoint
+160,8,tyger-api.vue.ai/health,Health Endpoint,OPEN,Health status endpoint showing deployment metadata and image information
+161,8,tyger-api.vue.ai/ping,Ping Endpoint,OPEN,"Ping health check endpoint (responds with ""pong"")"
+162,8,uat-eroute-netcswitch.m2pfintech.dev/management,Spring Boot Management,OPEN,"Management endpoint with exposed links to health, info, prometheus endpoints"
+163,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/quartz,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+164,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/refresh,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+165,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/routes,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+166,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/sbom,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+167,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/scheduledtasks,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+168,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/sessions,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+169,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/shutdown,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+170,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/startup,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+171,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/threaddump,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+172,9,uat-kyc-tc-shared.m2pfintech.dev/actuator/trace,Actuator Endpoint,OPEN,Spring Boot diagnostic endpoint returning JSON
+173,9,uat-kyc-tc-shared.m2pfintech.dev/admin,Admin Dashboard,OPEN,Admin interface accessible without login prompt
+174,9,uat-kyc-tc-shared.m2pfintech.dev/admin/,Admin Dashboard,OPEN,Admin interface accessible without login prompt
+175,9,uat-kyc-tc-shared.m2pfintech.dev/adminer.php,Admin Tool,OPEN,Adminer database admin tool exposed
+176,9,uat-kyc-tc-shared.m2pfintech.dev/administrator,Admin Dashboard,OPEN,Admin interface accessible without login prompt
+177,9,uat-kyc-tc-shared.m2pfintech.dev/administrator/,Admin Dashboard,OPEN,Admin interface accessible without login prompt
+178,9,uat-kyc-tc-shared.m2pfintech.dev/api-blueprint,API Documentation,OPEN,API Blueprint documentation endpoint
+179,9,uat-kyc-tc-shared.m2pfintech.dev/api-docs,API Documentation,OPEN,API documentation endpoint
+180,9,uat-kyc-tc-shared.m2pfintech.dev/api-explorer,API Documentation,OPEN,API explorer interface
+181,9,uat-kyc-tc-shared.m2pfintech.dev/api.json,API Specification,OPEN,OpenAPI/Swagger JSON file
+182,9,uat-kyc-tc-shared.m2pfintech.dev/api.raml,API Specification,OPEN,RAML API specification file
+183,9,uat-kyc-tc-shared.m2pfintech.dev/api.yaml,API Specification,OPEN,API specification YAML file
+184,9,uat-kyc-tc-shared.m2pfintech.dev/api/debug,Debug Endpoint,OPEN,Debug endpoint exposed
+185,9,uat-kyc-tc-shared.m2pfintech.dev/api/docs,API Documentation,OPEN,API documentation endpoint
+186,9,uat-kyc-tc-shared.m2pfintech.dev/api/documentation,API Documentation,OPEN,API documentation endpoint
+187,9,uat-kyc-tc-shared.m2pfintech.dev/api/graphql,GraphQL Endpoint,OPEN,GraphQL API endpoint
+188,9,uat-kyc-tc-shared.m2pfintech.dev/api/openapi.json,OpenAPI Specification,OPEN,OpenAPI JSON specification exposed
+189,9,uat-kyc-tc-shared.m2pfintech.dev/api/openapi.yaml,OpenAPI Specification,OPEN,OpenAPI YAML specification exposed
+190,9,uat-kyc-tc-shared.m2pfintech.dev/api/swagger.json,Swagger Specification,OPEN,Swagger JSON specification exposed
+191,9,uat-kyc-tc-shared.m2pfintech.dev/api/swagger.yaml,Swagger Specification,OPEN,Swagger YAML specification exposed
+192,9,uat-kyc-tc-shared.m2pfintech.dev/api/v1/api-docs,API Documentation,OPEN,API documentation endpoint v1
+193,9,uat-kyc-tc-shared.m2pfintech.dev/api/v1/graphql,GraphQL Endpoint,OPEN,GraphQL API endpoint v1
+194,9,uat-kyc-tc-shared.m2pfintech.dev/api/v1/swagger-ui.html,Swagger UI,OPEN,Swagger UI interface
+195,9,uat-kyc-tc-shared.m2pfintech.dev/api/v2/api-docs,API Documentation,OPEN,API documentation endpoint v2
+196,9,uat-kyc-tc-shared.m2pfintech.dev/api/v2/graphql,GraphQL Endpoint,OPEN,GraphQL API endpoint v2
+197,9,uat-kyc-tc-shared.m2pfintech.dev/apiary.apib,API Specification,OPEN,Apiary API specification
+198,9,uat-kyc-tc-shared.m2pfintech.dev/app.css.map,Source Map,OPEN,CSS source map exposed
+199,9,uat-kyc-tc-shared.m2pfintech.dev/app.js.map,Source Map,OPEN,JavaScript source map exposed
+200,9,uat-kyc-tc-shared.m2pfintech.dev/appsettings.Development.json,Config File,OPEN,ASP.NET development configuration file
+201,9,uat-kyc-tc-shared.m2pfintech.dev/appsettings.json,Config File,OPEN,ASP.NET configuration file
+202,9,uat-kyc-tc-shared.m2pfintech.dev/asset-manifest.json,Asset Manifest,OPEN,Asset manifest with file mappings exposed
+203,9,uat-kyc-tc-shared.m2pfintech.dev/assets/css/main.css.map,Source Map,OPEN,CSS source map exposed
+204,9,uat-kyc-tc-shared.m2pfintech.dev/assets/js/app.js.map,Source Map,OPEN,JavaScript source map exposed
+205,9,uat-kyc-tc-shared.m2pfintech.dev/assets/js/main.js.map,Source Map,OPEN,JavaScript source map exposed
+206,9,uat-kyc-tc-shared.m2pfintech.dev/assets/main.js.map,Source Map,OPEN,JavaScript source map exposed
+207,9,uat-kyc-tc-shared.m2pfintech.dev/autoconfig,Config Endpoint,OPEN,Spring Boot autoconfiguration endpoint
+208,9,uat-kyc-tc-shared.m2pfintech.dev/build/app.js.map,Source Map,OPEN,JavaScript source map exposed
+209,9,uat-kyc-tc-shared.m2pfintech.dev/build/bundle.js.map,Source Map,OPEN,JavaScript source map exposed
+210,9,uat-kyc-tc-shared.m2pfintech.dev/build/main.js.map,Source Map,OPEN,JavaScript source map exposed
+211,9,uat-kyc-tc-shared.m2pfintech.dev/bundle.js.map,Source Map,OPEN,JavaScript source map exposed (large 96KB file)
+212,9,uat-kyc-tc-shared.m2pfintech.dev/chunk-vendors.js.map,Source Map,OPEN,JavaScript chunk vendor map exposed
+213,9,uat-kyc-tc-shared.m2pfintech.dev/client/app.js.map,Source Map,OPEN,JavaScript source map exposed
+214,9,uat-kyc-tc-shared.m2pfintech.dev/client/main.js.map,Source Map,OPEN,JavaScript source map exposed
+215,9,uat-kyc-tc-shared.m2pfintech.dev/config.json,Config File,OPEN,Application configuration JSON
+216,9,uat-kyc-tc-shared.m2pfintech.dev/configprops,Config Endpoint,OPEN,Spring Boot configuration properties endpoint
+217,9,uat-kyc-tc-shared.m2pfintech.dev/console,Console Interface,OPEN,Console/REPL interface exposed
+218,9,uat-kyc-tc-shared.m2pfintech.dev/console/,Console Interface,OPEN,Console/REPL interface exposed
+219,9,uat-kyc-tc-shared.m2pfintech.dev/console/graphql,GraphQL Console,OPEN,GraphQL console/playground
+220,9,uat-kyc-tc-shared.m2pfintech.dev/dashboard,Dashboard,OPEN,Admin dashboard interface
+221,9,uat-kyc-tc-shared.m2pfintech.dev/dashboard/,Dashboard,OPEN,Admin dashboard interface
+222,9,uat-kyc-tc-shared.m2pfintech.dev/debug,Debug Endpoint,OPEN,Debug interface exposed
+223,9,uat-kyc-tc-shared.m2pfintech.dev/dist/app.js.map,Source Map,OPEN,JavaScript source map exposed
+224,9,uat-kyc-tc-shared.m2pfintech.dev/dist/bundle.js.map,Source Map,OPEN,JavaScript source map exposed
+225,9,uat-kyc-tc-shared.m2pfintech.dev/dist/css/main.css.map,Source Map,OPEN,CSS source map exposed
+226,9,uat-kyc-tc-shared.m2pfintech.dev/dist/main.js.map,Source Map,OPEN,JavaScript source map exposed
+227,9,uat-kyc-tc-shared.m2pfintech.dev/django-admin,Admin Interface,OPEN,Django admin interface exposed
+228,9,uat-kyc-tc-shared.m2pfintech.dev/docs,API Documentation,OPEN,API documentation endpoint
+229,9,uat-kyc-tc-shared.m2pfintech.dev/docs/,API Documentation,OPEN,API documentation endpoint
+230,9,uat-kyc-tc-shared.m2pfintech.dev/docs/openapi.json,OpenAPI Specification,OPEN,OpenAPI JSON specification
+231,9,uat-kyc-tc-shared.m2pfintech.dev/docs/swagger.json,Swagger Specification,OPEN,Swagger JSON specification
+232,9,uat-kyc-tc-shared.m2pfintech.dev/documentation,API Documentation,OPEN,API documentation endpoint
+233,9,uat-kyc-tc-shared.m2pfintech.dev/dump,Debug Dump,OPEN,Application dump/diagnostics endpoint
+234,9,uat-kyc-tc-shared.m2pfintech.dev/env,Environment Variables,OPEN,Environment configuration endpoint
+235,9,uat-kyc-tc-shared.m2pfintech.dev/graph/graphql,GraphQL Endpoint,OPEN,GraphQL API endpoint
+236,9,uat-kyc-tc-shared.m2pfintech.dev/graphiql,GraphiQL Interface,OPEN,GraphiQL GraphQL playground
+237,9,uat-kyc-tc-shared.m2pfintech.dev/graphiql.html,GraphiQL Interface,OPEN,GraphiQL GraphQL playground
+238,9,uat-kyc-tc-shared.m2pfintech.dev/graphiql/,GraphiQL Interface,OPEN,GraphiQL GraphQL playground
+239,9,uat-kyc-tc-shared.m2pfintech.dev/graphql-api,GraphQL API,OPEN,GraphQL API endpoint
+240,9,uat-kyc-tc-shared.m2pfintech.dev/graphql-explorer,GraphQL Explorer,OPEN,GraphQL explorer interface
+241,9,uat-kyc-tc-shared.m2pfintech.dev/graphql-playground,GraphQL Playground,OPEN,GraphQL Playground interface
+242,9,uat-kyc-tc-shared.m2pfintech.dev/graphql/,GraphQL Endpoint,OPEN,GraphQL API endpoint
+243,9,uat-kyc-tc-shared.m2pfintech.dev/graphql/api,GraphQL Endpoint,OPEN,GraphQL API endpoint
+244,9,uat-kyc-tc-shared.m2pfintech.dev/graphql/console,GraphQL Console,OPEN,GraphQL console/playground
+245,11,uat-kyc-tc-shared.m2pfintech.dev/swagger,Swagger UI,OPEN,Swagger interface exposed for API documentation
+246,11,uat-kyc-tc-shared.m2pfintech.dev/swagger-ui.html,Swagger UI,OPEN,Swagger UI interface exposed for API documentation
+247,11,uat-kyc-tc-shared.m2pfintech.dev/swagger-ui/,Swagger UI,OPEN,Swagger UI interface exposed for API documentation
+248,11,uat-kyc-tc-shared.m2pfintech.dev/swagger.json,OpenAPI JSON,OPEN,Swagger/OpenAPI specification JSON file exposed
+249,11,uat-kyc-tc-shared.m2pfintech.dev/swagger/v1/swagger.json,OpenAPI JSON,OPEN,Swagger API specification version 1 exposed
+250,11,uat-kyc-tc-shared.m2pfintech.dev/swagger/v2/swagger.json,OpenAPI JSON,OPEN,Swagger API specification version 2 exposed
+251,11,uat-kyc-tc-shared.m2pfintech.dev/swagger/v3/swagger.json,OpenAPI JSON,OPEN,Swagger API specification version 3 exposed
+252,11,uat-kyc-tc-shared.m2pfintech.dev/v1/api-docs,OpenAPI JSON,OPEN,OpenAPI documentation endpoint v1 exposed
+253,11,uat-kyc-tc-shared.m2pfintech.dev/v1/graphql,GraphQL,OPEN,GraphQL endpoint exposed
+254,11,uat-kyc-tc-shared.m2pfintech.dev/v2/api-docs,OpenAPI JSON,OPEN,OpenAPI documentation endpoint exposed
+255,11,uat-kyc-tc-shared.m2pfintech.dev/v3/api-docs,OpenAPI JSON,OPEN,OpenAPI documentation endpoint exposed
+256,11,uat-kyc-tc-shared.m2pfintech.dev/v3/api-docs/swagger-config,Swagger Config,OPEN,Swagger configuration endpoint exposed
+257,11,uat-loyalty-ups.m2pfintech.dev/actuator/health/liveness,Actuator Health,OPEN,Spring Boot Actuator liveness probe endpoint exposed
+258,11,uat-mb1.m2pfintech.dev/healthz,Health Check,OPEN,Health check endpoint exposed
+259,11,uat-mb3.m2pfintech.dev/asset-manifest.json,Asset Manifest,OPEN,Asset manifest with file mappings and source maps exposed
+260,11,uat-pnbfleet.m2pfintech.dev/health,Health Check JSON,OPEN,Health check endpoint exposed with system information
+261,11,uat-rewards-ups-auth.m2pfintech.dev/healthz,Health Check,OPEN,Health check endpoint exposed
+262,11,uat-shared-atmacquiring.m2pfintech.dev/asset-manifest.json,Asset Manifest,OPEN,Asset manifest with file mappings exposed
+263,11,uat-visapay-gateway.m2pfintech.com/actuator,Actuator,OPEN,Spring Boot Actuator endpoint exposed with links to other endpoints
+264,11,uat-visapay-gateway.m2pfintech.com/actuator/health,Actuator Health,OPEN,Spring Boot Actuator health endpoint exposed
+265,11,uat-visapay-gateway.m2pfintech.com/actuator/health/liveness,Actuator Health,OPEN,Spring Boot Actuator liveness probe endpoint exposed
+266,11,uat-visapay-gateway.m2pfintech.com/actuator/health/readiness,Actuator Health,OPEN,Spring Boot Actuator readiness probe endpoint exposed
+267,11,uat-visapay-gateway.m2pfintech.com/api/graphql,GraphQL,OPEN,GraphQL endpoint exposed
+268,11,uat-visapay-gateway.m2pfintech.com/api/openapi.json,OpenAPI JSON,OPEN,OpenAPI specification JSON exposed
+269,11,uat-visapay-gateway.m2pfintech.com/api/openapi.yaml,OpenAPI YAML,OPEN,OpenAPI specification YAML exposed
+270,11,uat-visapay-gateway.m2pfintech.com/api/v1/api-docs,OpenAPI JSON,OPEN,OpenAPI documentation v1 exposed
+271,11,uat-visapay-gateway.m2pfintech.com/api/v1/graphql,GraphQL,OPEN,GraphQL endpoint v1 exposed
+272,11,uat-visapay-gateway.m2pfintech.com/api/v1/namespaces,API,OPEN,Kubernetes namespaces API endpoint exposed
+273,11,uat-visapay-gateway.m2pfintech.com/api/v1/swagger-ui.html,Swagger UI,OPEN,Swagger UI interface v1 exposed
+274,11,uat-visapay-gateway.m2pfintech.com/api/v2/api-docs,OpenAPI JSON,OPEN,OpenAPI documentation v2 exposed
+275,11,uat-visapay-gateway.m2pfintech.com/api/v2/graphql,GraphQL,OPEN,GraphQL endpoint v2 exposed
+276,12,uat.m2pacademy.com,/asset-manifest.json,OPEN,Asset manifest JSON file exposed with file listings
+277,12,uatapp.syntizen.com,/healthz,OPEN,Health check endpoint returning JSON response
+278,12,ups-datasphere-analytics.m2pfintech.com,/health,OPEN,Health status endpoint returning JSON metrics
+279,12,ups-datasphere-analytics.m2pfintech.com,/healthcheck,OPEN,Health check endpoint returning JSON
+280,12,ups-datasphere-analytics.m2pfintech.com,/ping,OPEN,Ping endpoint returning JSON response
+281,12,ups-datasphere-analytics.m2pfintech.com,/swagger/docs,LOGIN_GATED,Swagger documentation with Access Denied requiring login
+282,12,ups-datasphere-analytics.m2pfintech.com,/swagger/index.html,LOGIN_GATED,Swagger UI requiring authentication
+283,12,visapay-uat-connect-api.m2pfintech.dev,/healthz,OPEN,Health check endpoint exposed
+284,12,visapay-uat-connect.m2pfintech.dev,/healthz,OPEN,Health check endpoint exposed
+285,12,vkyc.livquik.com,/health,OPEN,Health endpoint returning JSON with status and timestamp
+286,12,vob.livquik.com,/api/v1/api-docs,OPEN,API documentation endpoint exposed
+287,12,vue-app-use1-dr.vue.ai,/soap/,OPEN,SOAP endpoint exposed with fault information
+288,12,vue-app-use1-dr.vue.ai,/soap,OPEN,SOAP endpoint exposed with fault information
+289,12,vuex.vue.ai,/soap/,OPEN,SOAP endpoint exposed with fault information
+290,12,vuex.vue.ai,/soap,OPEN,SOAP endpoint exposed with fault information
+291,12,www-uat.m2pacademy.com,/assets,LOGIN_GATED,Frappe Cloud login form for real application
+292,12,www.m2pacademy.com,/assets,LOGIN_GATED,Frappe Cloud login form for real application
